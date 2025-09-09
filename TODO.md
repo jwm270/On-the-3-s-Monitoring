@@ -33,3 +33,4 @@
 - [ ] Investor pitch deck
 - [ ] Pilot agency onboarding
 - [ ] Partnerships with monitoring services
+- [ ] Test automation task
