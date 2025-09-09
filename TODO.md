@@ -33,6 +33,8 @@
 - [ ] Investor pitch deck
 - [ ] Pilot agency onboarding
 - [ ] Partnerships with monitoring services
-      <!-- TODO: Test automation end-to-end -->
-- [ ] Test automation
+- [ ]       <!-- TODO: Test automation end-to-end -->
+- [ ] Automation Test
+
+
 
