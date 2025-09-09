@@ -1,0 +1,21 @@
+name: TODOs → Issues
+on:
+  push:
+    paths:
+      - 'TODO.md'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create/update issues from TODOs
+        uses: alstr/todo-to-issue-action@v5
+        with:
+          IDENTIFIERS: '[{"name":"TODO","labels":["company-todo"]}]'
+          CLOSE_ISSUES: "true"          # closes the issue if TODO is removed
+          INSERT_ISSUE_URLS: "false"    # leave TODO.md clean
