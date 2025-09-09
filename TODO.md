@@ -34,5 +34,5 @@
 - [ ] Pilot agency onboarding
 - [ ] Partnerships with monitoring services
       <!-- TODO: Test automation end-to-end -->
-- [ ] Test automation end-to-end
+- [ ] Test automation
 
