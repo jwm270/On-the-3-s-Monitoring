@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/add-to-project@v1
         with:
-          project-url: https://github.com/users/jwm270/projects/4
+          project-url: PASTE_YOUR_PROJECT_URL_HERE
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
